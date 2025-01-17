@@ -5,6 +5,9 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; /
 }
 
 /* Header Navigation */
@@ -35,25 +38,38 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main Content */
+/* Main Container */
 main {
-    max-width: 800px;
+    display: flex;
+    flex-direction: row; 
+    flex: auto; 
+    gap: 20px; 
+    padding: 25px;
+    max-width: 1200px;
     margin: 20px auto;
-    padding: 20px;
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Main Content */
 main article {
+    flex: 2; 
+    background: #f9f9f9;
+    padding: 10px;
     margin-bottom: 20px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 main aside {
+    flex: 1; 
     background: #f9f9f9;
     padding: 10px;
     border-left: 3px solid #0078d7;
     font-style: italic;
+    overflow-y: auto; /
 }
 
 /* Footer */
