@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Updated Index</title>
+    <title>My Tweets</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="base.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Headings -->
-     <div class="header">
-        <h1>Main Title: Welcome to My Page</h1>
-        <h2>Subtitle: About This Page</h2>
-        <h3>Subsection: Learn More Below</h3>
-    </div>
 
-    <!-- Paragraphs -->
-     <div class="content">
-        <p>This is the first paragraph, providing a brief introduction to the content of this page.</p>
-        <p>The second paragraph describes why this page was created and its purpose.</p>
-        <p>Here, the third paragraph offers additional insights and examples related to the content.</p>
-        <p>Finally, the fourth paragraph wraps up the discussion and provides concluding remarks.</p>
-    </div>
-    
-    <div class="footer">
-        <a href="tweets.html"> My Tweets</a>
-    </div>
-    <!-- Clickable Image -->
-    <div class="image">
-        <a href="https://www.holbertonschool.com/" target="_blank" >
-            <img src="images.png" alt="Holberton School Logo" style="width:200px;">
-        </a>
-    </div>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <article>
+            <h1>Welcome Here </h1>
+            <p>Here is one of my favorite tweets embedded below:</p>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Coding is like humor. If you have to explain it, it’s bad. <br>– Cory House</p>
+                &mdash; Code Wisdom (@CodeWisdom)
+                <a href="https://twitter.com/CodeWisdom/status/609202545264902144">June 12, 2015</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </article>
+        <aside>
+            <p>Add a comment thread here.</p>
+            <input type="text" placeholder="Enter your comment here">
+            <button>Submit</button>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made by Jeremie Iyamurinze - <a href="https://github.com/jeremie-star" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>

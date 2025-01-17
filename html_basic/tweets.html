@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tweets</title>
-    <!-- Link to External CSS -->
     <link rel="stylesheet" href="styles.css">
+    <link href="base.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html"><button class="button">Back to Homepage</button></a>
-    </nav>
-    <!-- Main Content -->
-    <div class="content">
-        <h1>My Tweets</h1>
-        <p>Here is one of my favorite tweets embedded below:</p>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+                
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Embed a Tweet -->
-        <div class="tweet-container">
+    <!-- Main Content Section -->
+    <main>
+        <article>
+            <h1>My Tweets</h1>
+            <p>My favorite tweets embedded below:</p>
             <blockquote class="twitter-tweet">
                 <p lang="en" dir="ltr">Coding is like humor. If you have to explain it, it’s bad. <br>– Cory House</p>
-                &mdash; Code Wisdom (@CodeWisdom) 
-                <div class="tweet-date">
-                    <a href="https://twitter.com/CodeWisdom/status/609202545264902144">June 12, 2015</a>
-                </div>
+                &mdash; Code Wisdom (@CodeWisdom)
+                <a href="https://twitter.com/CodeWisdom/status/609202545264902144">June 12, 2015</a>
             </blockquote>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-    </div>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </article>
+        <aside>
+            <p>Add comment thread here.</p>
+            <input type="text" placeholder="Enter your comment here">
+            <button>Submit</button>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made by Jeremie Iyamurinze - <a href="https://github.com/jeremie-star" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>
