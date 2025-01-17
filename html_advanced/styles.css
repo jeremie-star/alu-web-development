@@ -37,3 +37,449 @@ nav ul li a {
 nav ul li a:hover {
     color: #007BFF; 
 }
+/* Banner Section */
+.banner {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+/* Top Block */
+.banner .top-block {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner .main-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.banner .description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.banner .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner .cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Bottom Block */
+.banner .bottom-block {
+    text-align: center;
+}
+
+.banner .secondary-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Grid for Cards */
+.banner .grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card Styling */
+.banner .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.banner .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.banner .card-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.banner .card-subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Quote Block Section */
+.quote-block {
+    padding: 40px;
+    background-color: #f1f1f1; /* Light grey background for contrast */
+    text-align: center;
+}
+
+/* Container for the Quote */
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensure responsiveness */
+}
+
+/* Image Styling */
+.quote-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+/* Quote Content Styling */
+.quote-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.quote-content blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.quote-content .quote-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.quote-content .quote-description {
+    font-size: 1rem;
+    color: #666;
+}
+/* Videos List Section */
+.videos-list {
+    padding: 50px;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    text-align: center;
+}
+
+.videos-list h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Videos Container */
+.videos-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow videos to wrap on smaller screens */
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Individual Video Block */
+.video-block {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.video-block h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.video-block p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Author Block */
+.author-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-block h4 {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Rating Block */
+.rating-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+.rating-block p {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+/* Membership Section */
+.membership-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.membership-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Membership Container */
+.membership-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns layout */
+    gap: 20px; /* Space between items */
+    justify-content: center;
+}
+
+/* Individual Membership Block */
+.membership-block {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Membership Image */
+.membership-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Membership Title */
+.membership-block h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Membership Description */
+.membership-block p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Membership Button */
+.membership-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.membership-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .membership-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .membership-container {
+        grid-template-columns: 1fr; 
+    }
+}
+
+#faq {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+  }
+  
+  /* Style the row blocks */
+  .row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the item blocks */
+  .item-block {
+    width: 48%; /* Ensures the two items per row */
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for headings */
+  .item-block h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for paragraphs */
+  .item-block p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Make the layout responsive */
+  @media (max-width: 768px) {
+    .row-block {
+      flex-direction: column;
+    }
+  
+    .item-block {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .head{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* Footer Styling */
+footer {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    border-top: 2px solid #ddd;
+  }
+  
+  /* Global block for centering the content */
+  .footer-global-block {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Row block inside footer */
+  .row-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+  
+  /* Footer image */
+  .footer-image {
+    max-width: 200px;
+    height: auto;
+    margin-right: 30px;
+  }
+  
+  /* Footer content (linked images and text) */
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  
+  /* Linked images */
+  .footer-link-image {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer text styling */
+  footer p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .row-block {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-image {
+      margin-left: 10px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      width: 60px;
+    }
+  
+    .footer-content {
+      align-items: center;
+    }
+  
+    .footer-link-image {
+      max-width: 40px;
+      margin-bottom: 8px;
+    }
+  }
+   p{
+    text-align: center;
+   }
+
+
+  
